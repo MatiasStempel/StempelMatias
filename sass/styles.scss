@@ -1,0 +1,19 @@
+.fondo-card{
+    background-image: url(./imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+
+$primary: #286bcf;
+$success: #49556B;
+$secondary: #ff0000;
+$warning: #192e50;
+$danger: #8ee9ce;
+
+@media(min-wid: 992px){
+    .alto-100{
+        height: 100vh;
+    }   
+    }
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
